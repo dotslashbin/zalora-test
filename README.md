@@ -41,5 +41,5 @@ Before everything else, I would like to point out that this is intended for an a
    - docker pull dotslashbin/zalora-test
 2. Run your docker image: 
    - docker run -p <your port>:8008 -d dotslashbin/zalora-test
-3. Run your brower and go to localhost:<your port
+3. Run your brower and go to localhost:<your port>
 
