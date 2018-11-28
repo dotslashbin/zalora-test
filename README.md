@@ -23,3 +23,5 @@ Before everything else, I would like to point out that this is intended for an a
 2. Go to the project folder
 3. run "npm install"
 4. run the main script with the command "node index.js"
+5. Check the terminal to see if the app is running without errors. 
+	- It should say "RUNNING ON PORT: 8008" if it was done correctly
