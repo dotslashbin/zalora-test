@@ -14,6 +14,10 @@ const helper 		= require('./helpers/helper.js')
 
 const uploadFolder 	= __dirname + '/uploads/'
 
+if (!fs.existsSync(uploadFolder)){
+    fs.mkdirSync(uploadFolder);
+}
+
 app.set('view engine', 'hbs')
 
 app.use(express.static(__dirname + '/public'))
